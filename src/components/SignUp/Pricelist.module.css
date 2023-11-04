@@ -1,0 +1,62 @@
+@import "../../utils/css-variables.css";
+
+.PricelistContainer {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(10deg, #3a0002 0%, #000 39.35%);
+}
+
+.PricelistTabsContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.PricelistItemlist {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(20, 20, 20, 0.8);
+  gap: 16px;
+  width: 304px;
+  margin-top: -200px;
+  height: 408px;
+}
+
+.PricelistHeader {
+  color: #efefef;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.PriceListText {
+  color: #c3c3c3;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.PricelistSpan {
+  color: #b9272d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 80px;
+}

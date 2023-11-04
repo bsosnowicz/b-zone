@@ -1,0 +1,84 @@
+@import "../../utils/css-variables.css";
+
+.NavigationContainer {
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  bottom: 88px;
+  z-index: 1;
+}
+
+.NavigationLogo {
+  width: 64px;
+  height: 64px;
+}
+
+.NavigationItemList {
+  display: flex;
+  gap: 81px;
+  list-style: none;
+  font-size: 16px;
+  color: var(--color-font-primary);
+  display: flex;
+  justify-content: center;
+}
+
+.NavigationItemList li {
+  cursor: pointer;
+  padding: 24px;
+  color: var(--color-font-primary);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Montserrat";
+}
+
+.NavigationItemSpan {
+  background-color: var(--color-theme-red);
+  opacity: 0;
+  width: "100%";
+  height: 8px;
+  border-radius: 24px;
+}
+
+.NavigationItem {
+  color: var(--color-font-primary);
+  text-decoration: none;
+}
+
+.NavigationItem:hover {
+  color: var(--color-theme-red);
+  transition: 0.3s ease-in-out;
+}
+
+.NavigationButton {
+  width: 126px;
+  height: 48px;
+  background-color: var(--color-theme-red);
+  border: none;
+  color: var(--color-font-primary);
+}
+
+/* .NavigationActiveItem {
+  color: var(--color-theme-red);
+} */
+
+.NavigationitemIcon {
+  opacity: 0;
+  margin-right: 16px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: -6px;
+}
+/*  
+
+.NavigationActiveItem:hover .NavigationitemIcon {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.NavigationActiveItem:hover {
+  display: flex;
+  align-items: center;
+} */

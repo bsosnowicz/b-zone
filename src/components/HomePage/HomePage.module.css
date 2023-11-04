@@ -1,0 +1,112 @@
+@import "../../utils/css-variables.css";
+
+.HeaderBackground {
+  width: 100vw;
+}
+
+.HeaderBackgroundContainer {
+  margin-top: 0;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+.HeaderSwiper {
+  width: 205px;
+  height: 201px;
+  display: flex;
+  position: absolute;
+  top: 56px;
+  left: 152px;
+  z-index: 10;
+  width: 200px;
+  height: 100px;
+  gap: 8px;
+}
+
+.HeaderSwiperItem {
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 64px;
+  height: 8px;
+  z-index: 10;
+  border-radius: 24px;
+}
+
+.NavigationitemIcon {
+  display: flex;
+}
+
+.HeaderSwiperButtonContainer {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  right: 151px;
+  top: 40px;
+}
+
+.HeaderSwiperButtonPrev,
+.HeaderSwiperButtonNext {
+  width: 40px;
+  height: 40px;
+  border-radius: 312px;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ActiveItem {
+  background-color: #b9272d;
+}
+
+.HeaderContainer {
+  left: 80px;
+  position: absolute;
+  top: 160px;
+  border-radius: 16px;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 64px 72px;
+}
+
+.HeaderSpan {
+  color: var(--color-theme-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.HeaderTitle {
+  font-size: 80px;
+  color: var(--color-theme-red);
+  margin: 0;
+  width: 400px;
+  line-height: 112px;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+}
+
+.HeaderDescription {
+  font-size: 16px;
+  color: var(--color-font-primary);
+  width: 490px;
+  font-family: "Montserrat";
+}
+
+.HeaderButton {
+  display: inline-flex;
+  height: 80px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: fixed;
+  right: 152px;
+  border-radius: 312px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: var(--color-font-primary);
+  font-family: Montserrat;
+  cursor: pointer;
+}
